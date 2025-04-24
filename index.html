@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Home | Modern Cars Kenya</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <h1>Modern Cars Kenya</h1>
+        <button id="menu-toggle" aria-label="Toggle Menu">&#9776;</button>
+        <ul id="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#featured-products">Cars</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section aria-label="hero-section">
+        <h2>Welcome to Modern Cars Kenya</h2>
+        <p>Explore top-quality cars at unbeatable prices.</p>
+        <a href="#car-listings" class="cta-btn">Browse Cars</a>
+      </section>
+
+      <!-- Featured Cars -->
+      <section id="featured-products">
+        <h2>Featured Cars</h2>
+        <section class="carousel" tabindex="0">
+          <article class="product-card">
+            <figure>
+              <img
+                src="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502941/probox_irije1.webp"
+                alt="Toyota Probox"
+                loading="lazy"
+              />
+              <figcaption>
+                <h3 class="product-name">Toyota Probox 2016</h3>
+                <p class="price">Ksh 750,000</p>
+                <button
+                  class="btn add-to-cart"
+                  data-id="c001"
+                  data-name="Toyota Probox 2016"
+                  data-brand="Toyota"
+                  data-year="2016"
+                  data-price="750000"
+                  data-img="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502941/probox_irije1.webp"
+                  data-img-front="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502941/probox_irije1.webp"
+                  data-img-rear="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502941/probox_irije1.webp"
+                  data-img-dashboard="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502941/probox_irije1.webp"
+                  data-img-side="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502941/probox_irije1.webp"
+                >
+                  View full details
+                </button>
+                <a href="#" class="btn buy-now">Inquire Now</a>
+              </figcaption>
+            </figure>
+          </article>
+
+          <article class="product-card">
+            <figure>
+              <img
+                src="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502949/honda-civic_anydtk.webp"
+                alt="Toyota Vitz"
+                loading="lazy"
+              />
+              <figcaption>
+                <h3 class="product-name">Toyota Vitz 2015</h3>
+                <p class="price">Ksh 830,000</p>
+                <button
+                  class="btn add-to-cart"
+                  data-id="c002"
+                  data-name="Toyota Vitz 2015"
+                  data-brand="Toyota"
+                  data-year="2015"
+                  data-price="830000"
+                  data-img="https://res.cloudinary.com/dejq3evca/image/upload/v1745502949/f_auto,q_auto/honda-civic_anydtk.webp"
+                  data-img-front="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502949/honda-civic_anydtk.webp"
+                  data-img-rear="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502949/honda-civic_anydtk.webp"
+                  data-img-dashboard="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502949/honda-civic_anydtk.webp"
+                  data-img-side="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502949/honda-civic_anydtk.webp"
+                >
+                  View full details
+                </button>
+                <a href="#" class="btn buy-now">Inquire Now</a>
+              </figcaption>
+            </figure>
+          </article>
+
+          <article class="product-card">
+            <figure>
+              <img
+                src="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503068/audi-a4_xnkpsn.webp"
+                alt="Audi A4"
+                loading="lazy"
+              />
+              <figcaption>
+                <h3 class="product-name">Audi A4 2018</h3>
+                <p class="price">Ksh 2,499,000</p>
+                <button
+                  class="btn add-to-cart"
+                  data-id="c003"
+                  data-name="Audi A4 2018"
+                  data-brand="Audi"
+                  data-year="2018"
+                  data-price="2499000"
+                  data-img="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503068/audi-a4_xnkpsn.webp"
+                  data-img-front="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503068/audi-a4_xnkpsn.webp"
+                  data-img-rear="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503068/audi-a4_xnkpsn.webp"
+                  data-img-dashboard="https://res.cloudinary.com/dejq3evca/image/f_auto,q_auto/upload/v1745503068/audi-a4_xnkpsn.webp"
+                  data-img-side="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503068/audi-a4_xnkpsn.webp"
+                >
+                  View full details
+                </button>
+                <a href="#" class="btn buy-now">Inquire Now</a>
+              </figcaption>
+            </figure>
+          </article>
+        </section>
+      </section>
+
+      <!-- New Arrivals -->
+      <section id="new-arrivals">
+        <h2>New Arrivals</h2>
+        <section class="carousel" id="featured-products-carousel" tabindex="0">
+          <article class="product-card">
+            <figure>
+              <img
+                src="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503058/nissan-xtrail_ul6n6j.webp"
+                alt="Nissan X-Trail"
+                loading="lazy"
+              />
+              <figcaption>
+                <h3 class="product-name">Nissan X-Trail 2020</h3>
+                <p class="price">Ksh 2,200,000</p>
+                <button
+                  class="btn add-to-cart"
+                  data-id="c004"
+                  data-name="Nissan X-Trail 2020"
+                  data-brand="Nissan"
+                  data-year="2020"
+                  data-price="2200000"
+                  data-img="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503058/nissan-xtrail_ul6n6j.webp"
+                  data-img-front="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503058/nissan-xtrail_ul6n6j.webp"
+                  data-img-rear="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503058/nissan-xtrail_ul6n6j.webp"
+                  data-img-dashboard="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503058/nissan-xtrail_ul6n6j.webp"
+                  data-img-side="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503058/nissan-xtrail_ul6n6j.webp"
+                >
+                  View full details
+                </button>
+                <button class="btn">Inquire Now</button>
+              </figcaption>
+            </figure>
+          </article>
+
+          <article class="product-card">
+            <figure>
+              <img
+                src="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502904/mark-x_prnfnj.webp"
+                alt="Toyota Mark X"
+                loading="lazy"
+              />
+              <figcaption>
+                <h3 class="product-name">Toyota Mark X 2009</h3>
+                <p class="price">Ksh 1,200,000</p>
+                <button
+                  class="btn add-to-cart"
+                  data-id="c005"
+                  data-name="Toyota Mark X 2009"
+                  data-brand="Toyota"
+                  data-year="2009"
+                  data-price="1200000"
+                  data-img="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502904/mark-x_prnfnj.webp"
+                  data-img-front="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502904/mark-x_prnfnj.webp"
+                  data-img-rear="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502904/mark-x_prnfnj.webp"
+                  data-img-dashboard="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502904/mark-x_prnfnj.webp"
+                  data-img-side="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502904/mark-x_prnfnj.webp"
+                >
+                  View full details
+                </button>
+                <button class="btn">Inquire Now</button>
+              </figcaption>
+            </figure>
+          </article>
+
+          <article class="product-card">
+            <figure>
+              <img
+                src="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502830/rs8_n6pozx.webp"
+                alt="Audi RS8"
+                loading="lazy"
+              />
+              <figcaption>
+                <h3 class="product-name">Audi RS8 2019</h3>
+                <p class="price">Ksh 4,999,999</p>
+                <button
+                  class="btn add-to-cart"
+                  data-id="c006"
+                  data-name="Audi RS8 2019"
+                  data-brand="Audi"
+                  data-year="2019"
+                  data-price="4999999"
+                  data-img="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502830/rs8_n6pozx.webp"
+                  data-img-front="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502830/rs8_n6pozx.webp"
+                  data-img-rear="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502830/rs8_n6pozx.webp"
+                  data-img-dashboard="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502830/rs8_n6pozx.webp"
+                  data-img-side="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502830/rs8_n6pozx.webp"
+                >
+                  View full details
+                </button>
+                <button class="btn">Inquire Now</button>
+              </figcaption>
+            </figure>
+          </article>
+
+          <article class="product-card">
+            <figure>
+              <img
+                src="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502839/toyota-v8_hgkbad.webp"
+                alt="Toyota Prado V8 2020"
+                loading="lazy"
+              />
+              <figcaption>
+                <h3 class="product-name">Toyota Prado V8 2020</h3>
+                <p class="price">Ksh 8,200,000</p>
+                <button
+                  class="btn add-to-cart"
+                  data-id="c007"
+                  data-name="Toyota Prado V8 2020"
+                  data-brand="Toyota"
+                  data-year="2020"
+                  data-price="8200000"
+                  data-img="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502839/toyota-v8_hgkbad.webp"
+                  data-img-front="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502839/toyota-v8_hgkbad.webp"
+                  data-img-rear="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502839/toyota-v8_hgkbad.webp"
+                  data-img-dashboard="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502839/toyota-v8_hgkbad.webp"
+                  data-img-side="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502839/toyota-v8_hgkbad.webp"
+                >
+                  View full details
+                </button>
+                <button class="btn">Inquire Now</button>
+              </figcaption>
+            </figure>
+          </article>
+
+          <article class="product-card">
+            <figure>
+              <img
+                src="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502946/demio_c2n8z0.webp"
+                alt="Mazda Demio 2017"
+                loading="lazy"
+              />
+              <figcaption>
+                <h3 class="product-name">Mazda Demio 2017</h3>
+                <p class="price">Ksh 890,000</p>
+                <button
+                  class="btn add-to-cart"
+                  data-id="c008"
+                  data-name="Mazda Demio 2017"
+                  data-brand="Mazda"
+                  data-year="2017"
+                  data-price="890000"
+                  data-img="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502946/demio_c2n8z0.webp"
+                  data-img-front="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502946/demio_c2n8z0.webp"
+                  data-img-rear="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502946/demio_c2n8z0.webp"
+                  data-img-dashboard="https://res.cloudinary.com/dejq3evca/image/f_auto,q_auto/upload/v1745502946/demio_c2n8z0.webp"
+                  data-img-side="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502946/demio_c2n8z0.webp"
+                >
+                  View full details
+                </button>
+                <button class="btn">Inquire Now</button>
+              </figcaption>
+            </figure>
+          </article>
+        </section>
+      </section>
+      <section id="car-listings">
+        <h2>Available Cars</h2>
+        <div class="car-grid">
+          <!-- Car 1: Honda Civic -->
+          <figure>
+            <img
+              src="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502949/honda-civic_anydtk.webp"
+              alt="Honda Civic 2019 - White"
+              loading="lazy"
+            />
+            <figcaption>
+              <h3 class="product-name">Honda Civic 2019 - White</h3>
+              <p class="price">Ksh 1,250,000</p>
+              <button
+                class="btn add-to-cart"
+                data-id="c009_white"
+                data-name="Honda Civic 2019 - White"
+                data-brand="Honda"
+                data-year="2019"
+                data-price="1250000"
+                data-img="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502949/honda-civic_anydtk.webp"
+                data-img-front="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502949/honda-civic_anydtk.webp"
+                data-img-rear="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502949/honda-civic_anydtk.webp"
+                data-img-dashboard="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502949/honda-civic_anydtk.webp"
+                data-img-side="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502949/honda-civic_anydtk.webp"
+              >
+                View full details
+              </button>
+              <button class="btn">Inquire Now</button>
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502949/honda-civic_anydtk.webp"
+              alt="Honda Civic 2019 - Black"
+              loading="lazy"
+            />
+            <figcaption>
+              <h3 class="product-name">Honda Civic 2019 - Black</h3>
+              <p class="price">Ksh 1,300,000</p>
+              <button
+                class="btn add-to-cart"
+                data-id="c009_black"
+                data-name="Honda Civic 2019 - Black"
+                data-brand="Honda"
+                data-year="2019"
+                data-price="1300000"
+                data-img="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502949/honda-civic_anydtk.webp"
+                data-img-front="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502949/honda-civic_anydtk.webp"
+                data-img-rear="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502949/honda-civic_anydtk.webp"
+                data-img-dashboard="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502949/honda-civic_anydtk.webp"
+                data-img-side="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745502949/honda-civic_anydtk.webp"
+              >
+                View full details
+              </button>
+              <button class="btn">Inquire Now</button>
+            </figcaption>
+          </figure>
+
+          <!-- Car 2: Ford Mustang -->
+          <figure>
+            <img
+              src="https://res.cloudinary.com/dejq3evca/image/upload//f_auto,q_auto/v1745510310/mustang_jhfgf5.webp"
+              alt="Ford Mustang 2020 - Red"
+              loading="lazy"
+            />
+            <figcaption>
+              <h3 class="product-name">Ford Mustang 2020 - Red</h3>
+              <p class="price">Ksh 5,200,000</p>
+              <button
+                class="btn add-to-cart"
+                data-id="c010_red"
+                data-name="Ford Mustang 2020 - Red"
+                data-brand="Ford"
+                data-year="2020"
+                data-price="5200000"
+                data-img="https://res.cloudinary.com/dejq3evca/image/upload//f_auto,q_auto/v1745510310/mustang_jhfgf5.webp"
+                data-img-front="https://res.cloudinary.com/dejq3evca/image/upload//f_auto,q_auto/v1745510310/mustang_jhfgf5.webp"
+                data-img-rear="https://res.cloudinary.com/dejq3evca/image/upload//f_auto,q_auto/v1745510310/mustang_jhfgf5.webp"
+                data-img-dashboard="https://res.cloudinary.com/dejq3evca/image/upload//f_auto,q_auto/v1745510310/mustang_jhfgf5.webp"
+                data-img-side="https://res.cloudinary.com/dejq3evca/image/upload//f_auto,q_auto/v1745510310/mustang_jhfgf5.webp"
+              >
+                View full details
+              </button>
+              <button class="btn">Inquire Now</button>
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://res.cloudinary.com/dejq3evca/image/upload//f_auto,q_auto/v1745510310/mustang_jhfgf5.webp"
+              alt="Ford Mustang 2020 - Blue"
+              loading="lazy"
+            />
+            <figcaption>
+              <h3 class="product-name">Ford Mustang 2020 - Blue</h3>
+              <p class="price">Ksh 5,500,000</p>
+              <button
+                class="btn add-to-cart"
+                data-id="c010_blue"
+                data-name="Ford Mustang 2020 - Blue"
+                data-brand="Ford"
+                data-year="2020"
+                data-price="5500000"
+                data-img="https://res.cloudinary.com/dejq3evca/image/upload//f_auto,q_auto/v1745510310/mustang_jhfgf5.webp"
+                data-img-front="https://res.cloudinary.com/dejq3evca/image/upload//f_auto,q_auto/v1745510310/mustang_jhfgf5.webp"
+                data-img-rear="https://res.cloudinary.com/dejq3evca/image/upload//f_auto,q_auto/v1745510310/mustang_jhfgf5.webp"
+                data-img-dashboard="https://res.cloudinary.com/dejq3evca/image/upload//f_auto,q_auto/v1745510310/mustang_jhfgf5.webp"
+                data-img-side="https://res.cloudinary.com/dejq3evca/image/upload//f_auto,q_auto/v1745510310/mustang_jhfgf5.webp"
+              >
+                View full details
+              </button>
+              <button class="btn">Inquire Now</button>
+            </figcaption>
+          </figure>
+
+          <!-- Car 3: Nissan X-Trail -->
+          <figure>
+            <img
+              src="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503058/nissan-xtrail_ul6n6j.webp"
+              alt="Nissan X-Trail 2020 - Silver"
+              loading="lazy"
+            />
+            <figcaption>
+              <h3 class="product-name">Nissan X-Trail 2020 - Silver</h3>
+              <p class="price">Ksh 3,700,000</p>
+              <button
+                class="btn add-to-cart"
+                data-id="c011_silver"
+                data-name="Nissan X-Trail 2020 - Silver"
+                data-brand="Nissan"
+                data-year="2020"
+                data-price="3700000"
+                data-img="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503058/nissan-xtrail_ul6n6j.webp"
+                data-img-front="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503058/nissan-xtrail_ul6n6j.webp"
+                data-img-rear="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503058/nissan-xtrail_ul6n6j.webp"
+                data-img-dashboard="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503058/nissan-xtrail_ul6n6j.webp"
+                data-img-side="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503058/nissan-xtrail_ul6n6j.webp"
+              >
+                View full details
+              </button>
+              <button class="btn">Inquire Now</button>
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503058/nissan-xtrail_ul6n6j.webp"
+              alt="Nissan X-Trail 2020 - White"
+              loading="lazy"
+            />
+            <figcaption>
+              <h3 class="product-name">Nissan X-Trail 2020 - White</h3>
+              <p class="price">Ksh 3,750,000</p>
+              <button
+                class="btn add-to-cart"
+                data-id="c011_white"
+                data-name="Nissan X-Trail 2020 - White"
+                data-brand="Nissan"
+                data-year="2020"
+                data-price="3750000"
+                data-img="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503058/nissan-xtrail_ul6n6j.webp"
+                data-img-front="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503058/nissan-xtrail_ul6n6j.webp"
+                data-img-rear="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503058/nissan-xtrail_ul6n6j.webp"
+                data-img-dashboard="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503058/nissan-xtrail_ul6n6j.webp"
+                data-img-side="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503058/nissan-xtrail_ul6n6j.webp"
+              >
+                View full details
+              </button>
+              <button class="btn">Inquire Now</button>
+            </figcaption>
+          </figure>
+
+          <!-- Car 4: BMW 3 Series -->
+          <figure>
+            <img
+              src="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503047/bmw-3_apnm4a.webp"
+              alt="BMW 3 Series 2020 - Blue"
+              loading="lazy"
+            />
+            <figcaption>
+              <h3 class="product-name">BMW 3 Series 2020 - Blue</h3>
+              <p class="price">Ksh 4,200,000</p>
+              <button
+                class="btn add-to-cart"
+                data-id="c012_blue"
+                data-name="BMW 3 Series 2020 - Blue"
+                data-brand="BMW"
+                data-year="2020"
+                data-price="4200000"
+                data-img="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503047/bmw-3_apnm4a.webp"
+                data-img-front="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503047/bmw-3_apnm4a.webp"
+                data-img-rear="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503047/bmw-3_apnm4a.webp"
+                data-img-dashboard="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503047/bmw-3_apnm4a.webp"
+                data-img-side="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503047/bmw-3_apnm4a.webp"
+              >
+                View full details
+              </button>
+              <button class="btn">Inquire Now</button>
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503047/bmw-3_apnm4a.webp"
+              alt="BMW 3 Series 2020 - Black"
+              loading="lazy"
+            />
+            <figcaption>
+              <h3 class="product-name">BMW 3 Series 2020 - Black</h3>
+              <p class="price">Ksh 4,300,000</p>
+              <button
+                class="btn add-to-cart"
+                data-id="c012_black"
+                data-name="BMW 3 Series 2020 - Black"
+                data-brand="BMW"
+                data-year="2020"
+                data-price="4300000"
+                data-img="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503047/bmw-3_apnm4a.webp"
+                data-img-front="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503047/bmw-3_apnm4a.webp"
+                data-img-rear="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503047/bmw-3_apnm4a.webp"
+                data-img-dashboard="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503047/bmw-3_apnm4a.webp"
+                data-img-side="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503047/bmw-3_apnm4a.webp"
+              >
+                View full details
+              </button>
+              <button class="btn">Inquire Now</button>
+            </figcaption>
+          </figure>
+
+          <!-- Car 5: Range Rover Evoque -->
+          <figure>
+            <img
+              src="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503021/rangerover-evoque_say4fl.webp"
+              alt="Range Rover Evoque 2019 - Green"
+              loading="lazy"
+            />
+            <figcaption>
+              <h3 class="product-name">Range Rover Evoque 2019 - Green</h3>
+              <p class="price">Ksh 6,000,000</p>
+              <button
+                class="btn add-to-cart"
+                data-id="c013_green"
+                data-name="Range Rover Evoque 2019 - Green"
+                data-brand="Range Rover"
+                data-year="2019"
+                data-price="6000000"
+                data-img="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503021/rangerover-evoque_say4fl.webp"
+                data-img-front="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503021/rangerover-evoque_say4fl.webp"
+                data-img-rear="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503021/rangerover-evoque_say4fl.webp"
+                data-img-dashboard="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503021/rangerover-evoque_say4fl.webp"
+                data-img-side="https://res.cloudinary.com/dejq3evca/image/upload/f_auto,q_auto/v1745503021/rangerover-evoque_say4fl.webp"
+              >
+                View full details
+              </button>
+              <button class="btn">Inquire Now</button>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <!-- Offers -->
+      <section id="offers" aria-labelledby="offers-heading">
+        <h2 id="offers-heading">Today's Hot Deals</h2>
+        <p>Grab limited-time deals on top cars!</p>
+        <ul class="offers-list">
+          <li class="offer-card">
+            <article>
+              <h3>🚘 10% OFF Range Rover Evoque</h3>
+              <p>
+                Enjoy a massive discount on the
+                <strong>2019 Range Rover Evoque</strong>.
+              </p>
+              <p class="countdown">
+                ⏳ Ends in: <time id="timer1">24:00:00</time>
+              </p>
+              <a href="#" class="cta-button">Claim Offer</a>
+            </article>
+          </li>
+
+          <li class="offer-card">
+            <article>
+              <h3>🚗 Free Logbook Transfer</h3>
+              <p>All April purchases include free logbook transfer!</p>
+              <p class="countdown">
+                ⏳ Ends in: <time id="timer2">24:00:00</time>
+              </p>
+              <a href="#" class="cta-button">Learn More</a>
+            </article>
+          </li>
+
+          <li class="offer-card">
+            <article>
+              <h3>🚘 Low Deposit, Easy Terms</h3>
+              <p>Drive away with just 20% deposit on select models.</p>
+              <p class="countdown">
+                ⏳ Ends in: <time id="timer3">03:00:00</time>
+              </p>
+              <a href="#" class="cta-button">Apply Now</a>
+            </article>
+          </li>
+        </ul>
+      </section>
+      <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <p>Your car-buying questions answered</p>
+
+        <details>
+          <summary>How do I book a test drive?</summary>
+          <p>
+            You can book a test drive directly from the car's details page or
+            contact us via WhatsApp, email, or phone.
+          </p>
+        </details>
+
+        <details>
+          <summary>Do your cars come with a warranty?</summary>
+          <p>
+            Yes, all our cars come with a 6-month engine and transmission
+            warranty.
+          </p>
+        </details>
+
+        <details>
+          <summary>Can I pay in installments?</summary>
+          <p>
+            We partner with select financial institutions for flexible payment
+            plans. Talk to us to learn more.
+          </p>
+        </details>
+
+        <details>
+          <summary>Are your prices negotiable?</summary>
+          <p>
+            Some prices are negotiable depending on the car. Reach out and we’ll
+            see how we can help.
+          </p>
+        </details>
+
+        <footer>
+          <p>Still have questions? <a href="#contact">Contact us</a></p>
+        </footer>
+      </section>
+
+      <!--TESTIMONIALS-->
+      <section id="testimonials" class="section">
+        <h2>What Our Costumers Say</h2>
+        <section class="carousel" id="testimonials-carousel" tabindex="0">
+          <blockquote class="testimonial">
+            <img
+              src="https://i.pravatar.cc/100?img=5"
+              alt="Sarah"
+              class="profile-img"
+            />
+            <p>“Amazing service!”</p>
+            <cite>– Sarah</cite>
+          </blockquote>
+
+          <blockquote class="testimonial">
+            <img
+              src="https://res.cloudinary.com/dejq3evca/image/upload/v1745502310/samples/people/smiling-man.jpg"
+              alt="John"
+              class="profile-img"
+            />
+            <p>“Five stars all the way!”</p>
+            <cite>– John</cite>
+          </blockquote>
+
+          <blockquote class="testimonial">
+            <img
+              src="https://i.pravatar.cc/100?img=12"
+              alt="Aisha"
+              class="profile-img"
+            />
+            <p>“Fast shipment.”</p>
+            <cite>– Collins</cite>
+          </blockquote>
+        </section>
+      </section>
+
+      <!--AI Chatbot-->
+
+      <section id="location" aria-labelledby="location-heading">
+        <h2 id="location-heading">Find Us</h2>
+        <p>Come visit our store or pick up your order in person!</p>
+
+        <figure>
+          <iframe
+            title="Store Location"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.938212287692!2d36.817244515907675!3d-1.2863891356430575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10b81aecc1b1%3A0xadb0e44e4b824a08!2sNairobi%20CBD!5e0!3m2!1sen!2ske!4v1616420992099!5m2!1sen!2ske"
+            width="100%"
+            height="400"
+            style="border: 0; border-radius: 1rem"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+          <figcaption>Our location in Nairobi CBD</figcaption>
+        </figure>
+      </section>
+    </main>
+
+    <footer id="site-footer" aria-labelledby="footer-heading">
+      <section>
+        <h2 id="footer-heading">Stay Connected</h2>
+      </section>
+
+      <section aria-labelledby="contact-heading" id="contact">
+        <h3 id="contact-heading">Contact Us</h3>
+        <form
+          method="POST"
+          action="https://formsubmit.co/collinsgitonga296@gmail.com"
+        >
+          <p>
+            <label for="name">Name:</label><br />
+            <input type="text" id="name" name="name" required />
+          </p>
+          <p>
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" required />
+          </p>
+          <p>
+            <label for="message">Message:</label><br />
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </p>
+          <p>
+            <button type="submit">
+              <i class="fa-solid fa-paper-plane"></i>Send Message
+            </button>
+          </p>
+        </form>
+        <h2 id="footer-heading">Follow Us On</h2>
+        <nav aria-label="Footer Navigation" class="footer-nav">
+          <ul class="footer-links">
+            <li>
+              <a href="https://facebook.com" target="_blank" rel="noopener"
+                ><i class="fa-brands fa-facebook"></i>Facebook</a
+              >
+            </li>
+
+            <li>
+              <a href="https://facebook.com" target="_blank" rel="noopener"
+                ><i class="fa-brands fa-youtube"></i> Youtube</a
+              >
+            </li>
+
+            <li>
+              <a href="https://facebook.com" target="_blank" rel="noopener"
+                ><i class="fa-brands fa-snapchat"></i>Snapchat</a
+              >
+            </li>
+            <li>
+              <a href="https://instagram.com" target="_blank" rel="noopener"
+                ><i class="fa-brands fa-instagram"></i>Instagram</a
+              >
+            </li>
+            <li>
+              <a href="https://twitter.com" target="_blank" rel="noopener"
+                ><i class="fa-brands fa-x-twitter"></i>Twitter</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </section>
+
+      <p>&copy; 2025 Modern Cars Kenya. All rights reserved.</p>
+    </footer>
+    <script>
+      (function () {
+        if (!window.chatbase || window.chatbase("getState") !== "initialized") {
+          window.chatbase = (...arguments) => {
+            if (!window.chatbase.q) {
+              window.chatbase.q = [];
+            }
+            window.chatbase.q.push(arguments);
+          };
+          window.chatbase = new Proxy(window.chatbase, {
+            get(target, prop) {
+              if (prop === "q") {
+                return target.q;
+              }
+              return (...args) => target(prop, ...args);
+            },
+          });
+        }
+        const onLoad = function () {
+          const script = document.createElement("script");
+          script.src = "https://www.chatbase.co/embed.min.js";
+          script.id = "sm4Blc9mNxIxiPDfxqXD9";
+          script.domain = "www.chatbase.co";
+          document.body.appendChild(script);
+        };
+        if (document.readyState === "complete") {
+          onLoad();
+        } else {
+          window.addEventListener("load", onLoad);
+        }
+      })();
+    </script>
+    <script src="main.js"></script>
+  </body>
+</html>

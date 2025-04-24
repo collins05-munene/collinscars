@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Details</title>
+    <link rel="stylesheet" href="/car-details.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Modern Cars Kenya</h1>
+    </header>
+
+    <main>
+      <section id="car-detail">
+        <div class="car-detail-container">
+          <h2 id="car-name">Loading...</h2>
+
+          <img
+            id="car-img"
+            src="/assets/cars/default.jpg"
+            alt="Main car image"
+          />
+          <p><strong>Brand:</strong> <span id="car-brand"></span></p>
+          <p><strong>Year:</strong> <span id="car-year"></span></p>
+          <p><strong>Price:</strong> <span id="car-price"></span></p>
+
+          <section id="specifications">
+            <h3>Specifications</h3>
+            <div id="car-specs" class="info car-specs">
+              <!-- Specs injected here -->
+            </div>
+          </section>
+
+          <div class="image-gallery">
+            <img id="car-img-front" src="" alt="Front view" />
+
+            <img id="car-img-rear" src="" alt="Rear view" />
+            <img id="car-img-dashboard" src="" alt="Dashboard view" />
+            <img id="car-img-side" src="" alt="Side view" />
+          </div>
+
+          <div class="buttons">
+            <a id="whatsapp-btn" class="whatsapp" href="#" target="_blank"
+              >WhatsApp</a
+            >
+            <a id="call-btn" class="call" href="#">Call Now</a>
+          </div>
+        </div>
+      </section>
+      <section id="similar-section">
+        <h3>Similar Cars</h3>
+        <div id="similar-cars"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Premium Motors. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="/car-detail.js"></script>
+    <script type="module" src="/car-data.js"></script>
+  </body>
+</html>
